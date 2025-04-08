@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+
+    <title>Fahodi.Dev</title>
+  </head>
+  <body>
+    <div class="container"></div>
+    <header>
+      <img src="IMGes/logo.png" alt="Fahodi logo" />
+      
+      <nav class="navigation">
+<ul>
+<li><a
+href="#aboutMe">About Me</a></li>
+<li><a href="#MyWorks">My
+Works</a></li>
+<li><a
+href="#contactMe">Contact</a></li>
+</ul>
+</nav>
+
+
+
+
+
+
+
+
+
+
+
+
+    </header>
+    <hr/>
+
+    <section class="hero">
+      <img class="arrow" src="IMGes/arrow.png" alt="arrow" />
+      <div class="heroSub">
+        <h1 class="name">I’m Fahad</h1>
+        <h1 class="title">Software Engineer</h1>
+        <div class="heroBtns">
+          <a class="hireMe" href="#contactMe">Hire me</a>
+          <a class="cv" href="PDF/Fahodi_CV.png" download>
+            Download CV
+            <img src="IMGes/download.png" alt="download button"
+          /></a>
+        </div>
+      </div>
+      <img src="IMGes/Hero.png" alt="hero image" class="heroImg" />
+    </section>
+
+    <section class="aboutMe" id="aboutMe">
+      <img
+        src="IMGes/AboutMe.png"
+        alt="aboutMe image"
+        class="aboutMeImg"
+      />
+      <div class="textContainer">
+        <div class="textTitle">
+          <h1 class="aboutName">About</h1>
+          <h1 class="aboutTitle">me</h1>
+          <img src="IMGes/lightbulb.png" alt="ligh" class="light" />
+        </div>
+        <p class="aboutMeParagraf">
+          Hey, I’m Fahd—a tech enthusiast passionate about fixing and building powerful computers. Currently diving into programming and electronics repair to sharpen my skills. I love creating cool projects, experimenting with new tech, and making things work seamlessly.
+        </p>
+      </div>
+    </section>
+
+    <section class="works" id="MyWorks">
+      <div class="worksContainer">
+        <div class="projectTitle">
+          <h1 class="aboutName">My recent</h1>
+          <h1 class="aboutTitle">works</h1>
+        </div>
+        <ul>
+          <li>
+            <a href="https://proffesoramer11.github.iol"
+              ><img src="IMGes/Ali.png" alt="Ali khodir 
+Landry "
+            /></a>
+          </li>
+          <li>
+            <a href=""><img src="IMGes/YT.png" alt="YT" /></a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="contactContainer" id="contactMe">
+      <div class="contactTitle">
+        <h1 class="aboutName">Contact</h1>
+        <h1 class="aboutTitle">me</h1>
+      </div>
+      <div class="contact">
+        <div class="emailAndPhone">
+          <img src="IMGes/Email.png" alt="email logo" />
+          <a href="mailto:fahodimusleh@icloud.com"
+            ><h3>fahodimusleh@icloud.com</h3></a
+          >
+        </div>
+        <div class="emailAndPhone">
+          <img src="IMGes/phone.png" alt="phone logo" />
+          <h3>+966543934320</h3>
+        </div>
+      </div>
+      <div class="socialMedia">
+        </a>
+        <a href="https://github.com/Fahodi-Dev" target="_blank"
+          ><img src="IMGes/github.png" alt=" my github account"
+        /></a>
+        <a href="https://discord.gg/SW6uxDjS" target="_blank"
+          ><img src="IMGes/Discord.png" alt="my Discord account"
+        /></a>
+        <a href="https://youtube.com/@fahodixgamer?si=KN3IfNzQLFdT8U2M" target="_blank"
+          ><img src="IMGes/youtube.png" alt="my youtube channel"
+        /></a>
+      </div>
+    </section>
+    <hr />
+    <footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- زر العودة للأعلى -->
+<button onclick="scrollToTop()" id="topBtn" title="رجوع للأعلى">
+    <i class="fas fa-arrow-up"></i> <!-- أيقونة السهم -->
+</button>
+
+<!-- رابط الأيقونات -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<style>
+    #topBtn {
+        display: none; 
+        position: fixed; 
+        bottom: 20px; 
+        right: 20px; 
+        z-index: 99; 
+        font-size: 18px;  
+        color: white;  
+        background: #4DAAB3;  /* اللون الجديد */
+        border: none;
+        padding: 12px 15px;
+        cursor: pointer;
+        transition: 0.3s;
+        border-radius: 50%;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    }
+
+    #topBtn:hover {
+        background: #3c8890;  /* لون أغمق عند التمرير */
+    }
+</style>
+
+<script>
+    window.onscroll = function() {
+        let btn = document.getElementById("topBtn");
+        if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+            btn.style.display = "block";
+        } else {
+            btn.style.display = "none";
+        }
+    };
+
+    function scrollToTop() {
+        window.scrollTo({top: 0, behavior: 'smooth'});
+    }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- تحميل خط Poppins من Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+<div id="typing"></div>
+
+<style>
+    #typing {
+        font-size: 24px;
+        color: #4DAAB3;  /* لون النص */
+        font-weight: bold;
+        font-family: 'Poppins', sans-serif;  /* استخدام خط Poppins */
+        white-space: nowrap;
+        overflow: hidden;
+        border-right: 2px solid #4DAAB3;  /* تأثير المؤشر */
+        width: 0;
+        animation: typing 3s steps(20, end) forwards, blink 0.7s infinite;
+    }
+
+    @keyframes typing {
+        to {
+            width: 100%;
+        }
+    }
+
+    @keyframes blink {
+        50% {
+            border-color: transparent;
+        }
+    }
+</style>
+
+<script>
+    const text = "Edited by Fahodi♥️";
+    let i = 0;
+    const speed = 100;  // سرعة الكتابة
+
+    function typeWriter() {
+        if (i < text.length) {
+            document.getElementById("typing").innerHTML += text.charAt(i);
+            i++;
+            setTimeout(typeWriter, speed);
+        }
+    }
+
+    window.onload = typeWriter;
+</script>
+
+
+
+
+<a class="version">(Version 1.0.0)<a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
